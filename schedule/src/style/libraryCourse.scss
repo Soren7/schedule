@@ -2,13 +2,19 @@
     display: grid;
     grid-template-columns: repeat(autofit, 1fr);
     grid-template-rows: 1fr 1fr;
+    background-color: cornflowerblue;
     
-    &__title {
-        grid-row: 1/2;
     
+    &__title-arrow {
+        grid-row: 1/2;   
+        display: flex;
     }
     
     &__description {
         grid-row: 2/3;
+    }
+    
+    &__arrow {
+        grid-row: 1/2;
     }
 }

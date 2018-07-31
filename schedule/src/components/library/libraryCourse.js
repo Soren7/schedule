@@ -1,14 +1,18 @@
-import React, { Component } from 'react';
 
-import Icon from '../icon'
+
+import React, { Component } from 'react';
+import Arrow from '../arrow';
+import Icon from '../icon';
 
 class LibraryCourse extends Component {
     render() {
         return(
-            <div className="library-couse"> 
-                <lable className="library-course__title"> Problem Solving</lable>
-                { Icon('fas fa-check', 'library-course__iocn') }
-                {/* arrow icon */}
+            <div className="library-course"> 
+                <div className="library-course__title-arrow"> 
+                    <lable className="library-course__title"> Problem Solving</lable>
+                    { Icon('fas fa-check', 'library-course__icon') }
+                </div>
+                <Arrow className="library-course__arrow"/>
                 {/*action button component */}
                 { Icon('fas fa-plus-circle', 'library-colurse-action') }
                 <div className="library-course__description"> 
