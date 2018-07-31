@@ -6,11 +6,11 @@ export function fetchCourses() {
        payload: [
             {
                 title: "Up and Running with Redis", 
-                Description: "In this course you'll learn how to work with the efficient Redis database to manage key / vallue relationships."
+                description: "In this course you'll learn how to work with the efficient Redis database to manage key / vallue relationships."
             },
             {
                 title: "HTML-CSS Bootcamp",
-                descprition: "Learn HTML5 and CSS3 from scratch, starting with the basics and finishing by building five projects from scratch."
+                description: "Learn HTML5 and CSS3 from scratch, starting with the basics and finishing by building five projects from scratch."
             },
             {
                 title: "UX for Developers",
