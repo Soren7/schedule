@@ -19,7 +19,7 @@ export default function(state = [], action) {
                     if(course.id == action.payload) {
                         course.enrolled = !course.enrolled
                     }
-                    return course
+                    return course;
                 });
                 return [
                     ...newCourses    
