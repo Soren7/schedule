@@ -1,6 +1,6 @@
 .schedule {
   display: grid;
-   grid-template-rows: [space-one-s] 1fr [space-one-e title-s] 100px [title-e] repeat(5, 80px) [progress-s] 1fr [progress-e];
+    grid-template-rows: [space-one-s] 1fr [title-s space-one-e] 100px [title-e] repeat(5, 80px) [progress-s] 1fr [progress-e];
     grid-row-gap: 22px;
 
   grid-column: schedule-s/schedule-e;
@@ -15,11 +15,9 @@
 
   &__title {
     grid-row: title-s / title-e;
-    @include border-left;
     color: white;
-    font-familiy: $font-alegreya;
+    font-family: $font-alegreya;
     font-size: 20px;
-    //text-align: center
-    
-  }
+    @include border-left;
+    }
 }
