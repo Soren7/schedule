@@ -73,12 +73,6 @@ export function fetchCourses() {
                 title: 'Dissecting Rails 5',
                 description: 'Learn how to build powerful applications using this comprehensive guide to the Ruby on Rails web framework.',
                 enrolled: false
-            },
-            {
-                id: 10,
-                title: 'this is an example',
-                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non urna diam. Mauris ultricies dui a metus consequat placerat. Proin sit amet mollis metus. Nullam id urna eu augue lobortis pellentesque. Maecenas consectetur orci sed enim scelerisque sollicitudin. Praesent purus ipsum, luctus vitae ligula vitae, lacinia scelerisque leo. Fusce leo lorem, eleifend ut tempus sit amet, mattis quis arcu. Morbi eu dui augue. Donec nulla turpis, ornare id hendrerit a, imperdiet vel odio. Aliquam erat volutpat. Suspendisse magna ligula, aliquet eget tempor vitae, iaculis id ex. In facilisis vel turpis imperdiet dignissim. Mauris et odio vitae sapien blandit tristique.Duis pulvinar ex diam, eget suscipit est varius eget. Vestibulum sed ultrices est, sed gravida augue. Nunc pulvinar consectetur mattis. Duis tempor magna sit amet tincidunt accumsan. Phasellus venenatis porttitor mi in sollicitudin. Vestibulum porttitor, massa ac mollis semper, tellus erat vestibulum augue, vel sodales magna nibh ultrices leo. Praesent lorem sem, tincidunt sit amet iaculis vel, mattis sed libero. Integer erat nibh, porttitor a velit molestie, consequat gravida justo. Maecenas vitae commodo risus. Aliquam erat volutpat. Nulla facilisis risus ligula, ut rutrum ipsum bibendum vel. Nam cursus, sem et facilisis pellentesque, enim erat blandit leo, ultricies tincidunt tellus ante ut felis. Maecenas euismod lorem augue, sed vehicula sem rutrum vel. Morbi sit amet porttitor erat, non efficitur nulla.",
-                enrolled: false
             }
           ]
     };
