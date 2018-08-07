@@ -26,17 +26,10 @@ class Action extends Component {
             <a 
                 id={this.id}
                 onClick={() => this.handleAction()} 
-                className={`${this.props.className} action`}
-            >
-                
+                className={`${this.props.className} action`}>
+            
             </a>
         );
-        //return (
-            //<button onClick={() => this.props.onClick()} className={`${this.props.className} action`}>
-           //    { Icon('fas fa-plus-circle') }
-            //    {/*"fas fa-times-circle"*/}
-           // </button>
-        //);
     }
 }
 

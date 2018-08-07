@@ -1,6 +1,6 @@
 .schedule {
   display: grid;
-  grid-template-rows: 100px repeat(auto-fill, 75px) [progress-s] 76px [progress-e];
+  grid-template-rows: 100px repeat(5, 80px) [progress-s] 76px [progress-e];
   grid-row-gap: 22px;
 
   grid-column: schedule-s/schedule-e;
@@ -10,6 +10,8 @@
   height: 100%;   
   align-items: center;
   justify-items: center;
+  
+  align-content: center;
 
   &__title {
     border-left: 1px solid $color-subtle-grey;
